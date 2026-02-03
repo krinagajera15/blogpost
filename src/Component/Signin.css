@@ -1,0 +1,79 @@
+.sign-main-class{
+    display: flex;
+    flex-direction: row;
+}
+.image-main-class:hover{
+    transform: scale(1.1);
+}
+.filed-main-class{
+    height: 100vh;
+    width: 700px;
+    background-color: #7581aa21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.filed-main-class:hover{
+    transform: scale(1.1);
+    background:  linear-gradient(to right, #4b7791fa, #d8f2f7, #eaedee);
+}
+.heidng-class{
+   margin: 10px;
+}
+.main-heding-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.sub-heding-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: darkgrey;
+    font-family:'Times New Roman', Times, serif;
+}
+.feild-class input{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+}
+.option-class select{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    
+}
+.btn-otp-class{
+    height: 50px;
+    margin-top: 20px;
+    width: 400px;
+    font-size:30px ;
+    color: white;
+    border-radius: 7px;
+    background: linear-gradient(to right, #184852);
+}
+.btn-lgin-class{
+    height: 50px;
+    width: 400px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    border-radius: 7px;
+    background: linear-gradient(to right, #0A192F, #184852);
+}
+.error-class{
+    color: red;
+    font-size: 20px;
+}

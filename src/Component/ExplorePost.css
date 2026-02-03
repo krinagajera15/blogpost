@@ -1,0 +1,130 @@
+.exp-main-class{
+  background-color: white;
+}
+.exp-main-class.dark{
+  background: linear-gradient(
+        to right,
+        #a0c2f5,
+        #b4d0ec,
+        #d9ecf1
+      );
+
+}
+.exp-main-class.light{
+  background-color: white;
+}
+.search-main-class {
+  display: flex;
+    align-items: center;
+    /* જો સર્ચ બારને જમણી બાજુ રાખવું હોય તો નીચેનું માર્જિન કામ લાગશે */
+    margin-left: auto;
+    width: 30%;
+    height: 38px;
+    border: 2px solid #8e8f91;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding:  10px;
+    margin: 30px; 
+  }
+  .search-icon-class {
+    font-size: 20px;
+    color: #26457a; /* bluish icon */
+    margin-right: 8px;
+  
+  } 
+  .search-input-class {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+  }
+  .search-input-class::placeholder {
+    color: #8d959e;
+  }
+  .form-exp-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .exp-form-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: #102A43;
+    box-shadow: 5px 0px 40px 5px black;
+    border-radius: 20px;
+    height: 90%;
+    width: 50%;
+  }
+  .header-row-class{
+    display: flex;            /* આનાથી બંને વસ્તુ એક લાઈનમાં આવશે */
+    align-items: center;      /* આનાથી બંને વસ્તુ ઉપર-નીચેથી સેન્ટરમાં રહેશે */
+    justify-content: space-between; /* આનાથી બટન અને સર્ચ બાર વચ્ચે જગ્યા છૂટી જશે */
+    gap: 20px;                /* જો તમારે ચોક્કસ માપની જગ્યા રાખવી હોય તો */
+    width: 100%;              /* આખા પેજની પહોળાઈ લેવા માટે */
+    padding: 10px 0;  
+  }
+  .btn-creat-class{
+    height: 40px;
+    width: 15%;
+    color: white;
+    font-size: 25px;
+    border: none;
+    background-color: #26457a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 7px;
+  }
+  .filde-exp-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+  }
+  .filde-exp-class input{
+    height: 45px;
+    width: 75%;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+  .filde-exp-class textarea{
+    height: 80px;
+    width: 75%;
+  }
+  .exp-heding-class{
+    display: flex;
+    justify-content: center;
+    font-style: bold;
+    color: #ffffff;
+  }
+  .btn-class-exp{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .sub-btn-class{
+    height: 40px;
+    width: 20%;
+    color: #0A192F;
+    border: none;
+    background-color: #00E5FF;
+    border-radius: 7px;
+    font-size: 20px;
+    
+  }
+  .cls-btn-class{
+    height: 40px;
+    width: 20%;
+    color: #0A192F;
+    border: none;
+    font-size: 20px;
+    background-color: #00E5FF;
+    border-radius: 7px;
+    
+  }

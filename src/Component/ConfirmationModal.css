@@ -1,0 +1,46 @@
+.model-main-class{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    
+
+}
+.model-class{
+    background: linear-gradient(to right, #142744, #102A43, #00B4D8 );
+    padding: 30px 20px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+.model-class h1{
+    margin-bottom: 10px;
+    color: snow;
+}
+.model-class h2{
+    color: snow;
+    margin-bottom: 20px;
+}
+.model-all-btn-class{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.model-cancel-btn-class{
+    height: 40px;
+    width: 70px;
+    background-color: #00E5FF;
+    color: #0A192F;
+}
+.model-delete-btn-class{
+    height: 40px;
+    width: 70px;
+    background-color: #00E5FF;
+    color: #0A192F;
+}

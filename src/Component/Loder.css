@@ -1,0 +1,29 @@
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  
+    background: rgba(0, 0, 0, 0.3); /* dark transparent layer */
+    backdrop-filter: blur(6px);     /* ⭐ BLUR MAGIC */
+    -webkit-backdrop-filter: blur(6px);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    z-index: 9999; /* sab upar */
+  }
+  
+  .loader-box {
+    padding: 20px 30px;
+    border-radius: 16px;
+    text-align: center;
+  }
+  .loader-box p{
+    color: #26457a;
+    font-style: bold;
+    width: 20px;
+    height: 20px;
+  }

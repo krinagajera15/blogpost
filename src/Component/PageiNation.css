@@ -1,0 +1,57 @@
+.main-pagein-class{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.main-pagein-class.dark{
+    background: linear-gradient(
+          to right,
+          #a0c2f5,
+          #b4d0ec,
+          #d9ecf1
+        );
+  
+}
+.main-pagein-class.light{
+    background-color: white;
+}
+.prev-btn-class{
+    height: 40px;
+    width: 70px;
+    color: white;
+    border: none;
+    background-color: #083253;
+    border-radius: 10px;
+}
+.prev-btn-class:disabled{
+    background-color: #4d5c70;
+    cursor: not-allowed; /* માઉસ લઈ જતા મનાઈની નિશાની બતાવશે */
+    opacity: 0.7; /* થોડું ઝાંખું દેખાશે */
+}
+.label-class{
+    height: 40px;
+    padding: 10px;
+}
+.next-btn-class{
+    height: 40px;
+    width: 70px;
+    color: white;
+    border: none;
+    background-color: #083253;
+    border-radius: 10px;
+}
+.next-btn-class:disabled{
+    background-color: #4d5c70;
+    cursor: not-allowed; /* માઉસ લઈ જતા મનાઈની નિશાની બતાવશે */
+    opacity: 0.7; /* થોડું ઝાંખું દેખાશે */
+}
+.select-class{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    border-radius: 10px;
+    margin-right: 8px;
+
+}

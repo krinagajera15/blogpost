@@ -1,0 +1,22 @@
+.main-footer-class{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right,#0A192F,#102A43, #00B4D8);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.main-footer-class.dark{
+    background: linear-gradient(to right,#0A192F,#102A43, #00B4D8);
+}
+.main-footer-class.light{
+    background: linear-gradient(
+        to right,
+        #3d557a,
+        #6186ac,
+        #a1c9d4
+      );
+}
+b{
+    color: #41c3ff;
+}

@@ -1,0 +1,46 @@
+.main-home-class{
+  background-color: #f1f1f1;
+ }
+.main-home-class.dark{
+   background: linear-gradient(
+    to right,
+    #a0c2f5,
+    #b4d0ec,
+    #d9ecf1
+  ); 
+}
+.main-home-class.light{
+  background-color:  white
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.tital{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.content:has(.error-data-class) {
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.error-data-class {
+  color: red;
+  font-size: 70px;
+  font-weight: bold;
+}
+.sbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
